@@ -2,11 +2,12 @@
   "name": "random-quote-machine",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Myrmidonut.github.io/fcc_frontend_random_quote_machine/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.0",
-    "homepage": "https://myrmidonut.github.io/fcc_frontend_random_quote_machine/"
+    "react-scripts": "2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
