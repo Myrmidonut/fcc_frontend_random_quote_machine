@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4ce45b847111bb3a5420",
+    "revision": "14708f770ab01e9d277d",
     "url": "/fcc_frontend_random_quote_machine/static/css/main.8bf63961.chunk.css"
   },
   {
-    "revision": "4ce45b847111bb3a5420",
-    "url": "/fcc_frontend_random_quote_machine/static/js/main.4ce45b84.chunk.js"
+    "revision": "14708f770ab01e9d277d",
+    "url": "/fcc_frontend_random_quote_machine/static/js/main.14708f77.chunk.js"
   },
   {
     "revision": "6eb6405c9d99258624bc",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/fcc_frontend_random_quote_machine/static/js/runtime~main.efe3a4df.js"
   },
   {
-    "revision": "672a0ba3100d0321f5c9e70105d6686d",
+    "revision": "3cabb865bac22fd865dc8e6420c02c06",
     "url": "/fcc_frontend_random_quote_machine/index.html"
   }
 ];
