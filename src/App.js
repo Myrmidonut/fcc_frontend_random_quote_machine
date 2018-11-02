@@ -14,7 +14,7 @@ response:
 const Header = () => {
   return (
     <div className="header">
-      A new quote for today!
+      <h1>Random Quote Machine</h1>
     </div>
   )
 }
@@ -34,7 +34,7 @@ const Buttons = (props) => {
   return (
     <div className="buttons-container">
       <button id="new-quote" onClick={props.getQuote}>Next</button>
-      <a id="tweet-quote" href={`https://twitter.com/intent/tweet?text=${props.plainText}%20-%20${props.author}`} target="_blank" rel="noopener noreferrer">Tweet</a>
+      <a id="tweet-quote" href={`https://twitter.com/intent/tweet?text=${props.plainText}${props.author}`} target="_blank" rel="noopener noreferrer">Tweet</a>
     </div>
   )
 }
@@ -54,7 +54,7 @@ class App extends Component {
     .then(data => {
       this.setState({
         text: data[0].content,
-        author: data[0].title
+        author: " - " + data[0].title
       })
     })
     .then(() => {

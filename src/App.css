@@ -1,0 +1,93 @@
+html, body, #root {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: orange;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  width: 600px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 20px #733f00;
+  border-radius: 5px;
+  background-color:#d4f0ff;
+}
+
+.header {
+  text-align: center;
+  padding: 35px 35px 0 35px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.quote-container {
+  padding: 35px;
+  min-height: 150px;
+}
+
+.quote-container p {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px;
+}
+
+button, a {
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 27px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  background-color: #f9d9ac;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.buttons-container a {
+  line-height: 30px;
+}
+
+button:hover, a:hover {
+  box-shadow: inset 1px 1px 1px gray;
+}
+
+button:active, a:active {
+  box-shadow: inset 3px 3px 3px gray;
+}
+
+button:focus, a:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 350px) {
+  .buttons-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-height: 530px) {
+  .buttons-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
