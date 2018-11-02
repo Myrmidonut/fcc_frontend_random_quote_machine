@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/fcc_frontend_random_quote_machine/static/js/runtime~main.efe3a4df.js"
   },
   {
-    "revision": "5c4ad2b45412bcf7e70de168993cc163",
+    "revision": "133a2ffac9c919e0607cb63e3ee41de8",
     "url": "/fcc_frontend_random_quote_machine/index.html"
   }
 ];
