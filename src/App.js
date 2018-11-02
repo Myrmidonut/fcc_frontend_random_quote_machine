@@ -47,11 +47,12 @@ class App extends Component {
   }
 
   getQuote = () => {
-    const url = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=";
-
+    const url = `http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback&${Math.random()}`
     fetch(url)
     .then(response => response.json())
     .then(data => {
+      console.log(data)
+
       this.setState({
         text: data[0].content,
         author: " - " + data[0].title
