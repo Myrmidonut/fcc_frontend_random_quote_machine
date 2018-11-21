@@ -48,7 +48,7 @@ class App extends Component {
 
   getQuote = () => {
     const url = `https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback&${Math.random()}`
-    
+
     fetch(url)
     .then(response => response.json())
     .then(data => {
@@ -72,6 +72,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div id="background" />
         <div id="quote-box">
           <Header />
           <Quote text={this.state.text} author={this.state.author} />

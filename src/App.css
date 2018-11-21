@@ -5,11 +5,6 @@ html, body, #root {
   font-family: 'Josefin Slab', serif;
 }
 
-#root {
-  background-image: url("./background.jpg");
-  background-size: cover;
-}
-
 .App {
   height: 100%;
   display: flex;
@@ -17,13 +12,18 @@ html, body, #root {
   align-items: center;
 }
 
+#background {
+  height: 100%;
+  width: 100%;
+  background-image: url("./neon villa.jpg");
+  background-size: cover;
+  filter: blur(5px);
+}
+
 #quote-box {
-  width: 600px;
-  margin: 20px;
-  border: 1px solid black;
-  box-shadow: 0 0 40px #730000;
-  border-radius: 5px;
-  background-color: rgb(255,255,255,0.95);
+  position: absolute;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
 }
 
 .header {
@@ -37,6 +37,8 @@ html, body, #root {
 }
 
 .quote-container {
+  max-width: 600px;
+  margin: auto;
   padding: 35px;
   min-height: 150px;
   font-size: 20px;
@@ -49,6 +51,8 @@ html, body, #root {
 }
 
 .buttons-container {
+  max-width: 600px;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   padding: 35px;
@@ -87,10 +91,20 @@ button:focus, a:focus {
   outline: none;
 }
 
+@media screen and (max-width: 500px) {
+  #new-quote {
+    margin-right: 10px;
+  } 
+  
+  #tweet-quote {
+    margin-left: 10px;
+  }
+}
+
 @media screen and (max-width: 350px) {
   .buttons-container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
