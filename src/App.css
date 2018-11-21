@@ -91,6 +91,12 @@ button:focus, a:focus {
   outline: none;
 }
 
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 15px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   #new-quote {
     margin-right: 10px;
@@ -98,6 +104,11 @@ button:focus, a:focus {
   
   #tweet-quote {
     margin-left: 10px;
+  }
+
+  .quote-container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -108,9 +119,21 @@ button:focus, a:focus {
   }
 }
 
+@media screen and (max-width: 385px) {
+  .header {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 @media screen and (max-height: 530px) {
   .buttons-container {
     padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .quote-container {
     padding-bottom: 10px;
   }
 }
