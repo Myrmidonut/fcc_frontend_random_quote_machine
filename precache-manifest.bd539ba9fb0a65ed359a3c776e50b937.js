@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/fcc_frontend_random_quote_machine/static/media/neon villa.3d35b13a.jpg"
   },
   {
-    "revision": "0d7eb50a4e4baacf2037851f41598ef4",
+    "revision": "063298d5f3a36d1d87bfced5e75a6bc8",
     "url": "/fcc_frontend_random_quote_machine/index.html"
   }
 ];
