@@ -5,6 +5,8 @@ Read random quotes from [Quotes on Design](https://quotesondesign.com) and tweet
 
 This project is part of freeCodeCamps Frontend Libraries certificate.
 
+***
+
 ## Project Requirements
 * There is a wrapper element with a corresponding id="quote-box".
 * Within #quote-box is an element with a corresponding id="text".
@@ -18,12 +20,18 @@ This project is part of freeCodeCamps Frontend Libraries certificate.
 * It is possible to tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in it's href attribute to tweet the current quote.
 * The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
 
+***
+
 ## Project Data
 Quotes on Design:  
 https://quotesondesign.com
 
+***
+
 ## Final Project
 https://myrmidonut.github.io/fcc_frontend_random_quote_machine
+
+***
 
 ## Preview Images
 ### Main Screen:
