@@ -1,14 +1,14 @@
 {
-  "main.css": "/fcc_frontend_random_quote_machine/static/css/main.ca873351.chunk.css",
-  "main.js": "/fcc_frontend_random_quote_machine/static/js/main.63f220d1.chunk.js",
-  "main.js.map": "/fcc_frontend_random_quote_machine/static/js/main.63f220d1.chunk.js.map",
-  "static/js/1.6eb6405c.chunk.js": "/fcc_frontend_random_quote_machine/static/js/1.6eb6405c.chunk.js",
-  "static/js/1.6eb6405c.chunk.js.map": "/fcc_frontend_random_quote_machine/static/js/1.6eb6405c.chunk.js.map",
-  "runtime~main.js": "/fcc_frontend_random_quote_machine/static/js/runtime~main.efe3a4df.js",
-  "runtime~main.js.map": "/fcc_frontend_random_quote_machine/static/js/runtime~main.efe3a4df.js.map",
-  "static/media/App.css": "/fcc_frontend_random_quote_machine/static/media/neon villa.3d35b13a.jpg",
-  "static/css/main.ca873351.chunk.css.map": "/fcc_frontend_random_quote_machine/static/css/main.ca873351.chunk.css.map",
+  "main.css": "/fcc_frontend_random_quote_machine/static/css/main.a0bc214a.chunk.css",
+  "main.js": "/fcc_frontend_random_quote_machine/static/js/main.d0dc7761.chunk.js",
+  "main.js.map": "/fcc_frontend_random_quote_machine/static/js/main.d0dc7761.chunk.js.map",
+  "runtime~main.js": "/fcc_frontend_random_quote_machine/static/js/runtime~main.78082f94.js",
+  "runtime~main.js.map": "/fcc_frontend_random_quote_machine/static/js/runtime~main.78082f94.js.map",
+  "static/js/2.c653dbbd.chunk.js": "/fcc_frontend_random_quote_machine/static/js/2.c653dbbd.chunk.js",
+  "static/js/2.c653dbbd.chunk.js.map": "/fcc_frontend_random_quote_machine/static/js/2.c653dbbd.chunk.js.map",
   "index.html": "/fcc_frontend_random_quote_machine/index.html",
-  "precache-manifest.bd539ba9fb0a65ed359a3c776e50b937.js": "/fcc_frontend_random_quote_machine/precache-manifest.bd539ba9fb0a65ed359a3c776e50b937.js",
-  "service-worker.js": "/fcc_frontend_random_quote_machine/service-worker.js"
+  "precache-manifest.01922bb48463590e751430394435daa1.js": "/fcc_frontend_random_quote_machine/precache-manifest.01922bb48463590e751430394435daa1.js",
+  "service-worker.js": "/fcc_frontend_random_quote_machine/service-worker.js",
+  "static/css/main.a0bc214a.chunk.css.map": "/fcc_frontend_random_quote_machine/static/css/main.a0bc214a.chunk.css.map",
+  "static/media/App.css": "/fcc_frontend_random_quote_machine/static/media/neon villa.3d35b13a.jpg"
 }
